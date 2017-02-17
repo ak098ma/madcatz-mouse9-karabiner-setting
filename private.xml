@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<root>
+<list>
+<item>
+<name>Mouse</name>
+<identifier>remap.mouse_button4_5</identifier>
+<autogen>
+--PointingButtonToKey-- PointingButton::BUTTON4,
+KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L
+</autogen>
+<autogen>
+--PointingButtonToKey-- PointingButton::BUTTON5,
+KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L
+</autogen>
+<autogen>
+--PointingButtonToKey-- PointingButton::BUTTON6,
+KeyCode::W, ModifierFlag::COMMAND_L
+</autogen>
+<autogen>
+--PointingButtonToKey-- PointingButton::BUTTON9,
+KeyCode::TAB, ModifierFlag::CONTROL_L
+</autogen>
+<autogen>
+--PointingButtonToKey-- PointingButton::BUTTON10,
+KeyCode::TAB, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
+</autogen>
+<autogen>
+--PointingButtonToKey-- PointingButton::BUTTON7,
+KeyCode::T, ModifierFlag::COMMAND_L
+</autogen>
+</item>
+</list>
+</root>
+
